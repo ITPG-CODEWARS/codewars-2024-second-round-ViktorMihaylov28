@@ -38,7 +38,7 @@ Genlink URL използва следните технологии:
 
 1. **Клонирайте репозиторито**:
    ```bash
-   git clone https://your-repo-url.git
+   git clone https://github.com/ITPG-CODEWARS/codewars-2024-second-round-ViktorMihaylov28
 2. **Импортиране на базата данни**
 След като получите файла `competition.sql`, можете да импортирате базата данни, като изпълните следните стъпки:
 
