@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+<title>Generate short url</title>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="team" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<!--<link rel="stylesheet" href="css/owl.theme.default.min.css">-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!--<link rel="stylesheet" href="css/font-awesome.min.css">--> 
+<!-- MAIN CSS -->
+<link rel="stylesheet" href="css/tooplate-style.css">
+</head>
+<body>
+
+<!-- PRE LOADER -->
+<section class="preloader">
+  <div class="spinner"> <span class="spinner-rotate"></span> </div>
+</section>
+
+<!-- MENU -->
+<section class="navbar custom-navbar navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="icon icon-bar"></span> <span class="icon icon-bar"></span> <span class="icon icon-bar"></span> </button>
+      
+      <!-- lOGO TEXT HERE --> 
+      <a href="index.html" class="navbar-brand">Genlink URL</a> </div>
+    
+    <!-- MENU LINKS -->
+    <div class="collapse navbar-collapse">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#" class="smoothScroll">Вход</a></li>
+        <li>
+          <button class="section-btn genrnav">Регистрация</button>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- FEATURE -->
+<section id="profile" data-stellar-background-ratio="0.5">
+  <div class="overlay"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-offset-3 col-md-6 col-sm-12 gencnt">
+        <div class="home-info hprofile">
+          <h3>URL Shorter позволява създаването на персонални URL адреси.</h3>
+          <h1>Ние ви помагаме да управлявате и генерирате успешно вашите URL адреси</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PRICING -->
+<section id="pricing" style="padding-top:30px; padding-bottom: 50px;" data-stellar-background-ratio="0.5">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 col-sm-12">
+        <div class="section-title" style="padding-bottom:30px">
+          <h1>Моят профил</h1>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6">
+        <div class="pricing-thumb">
+          <div class="pricing-title">
+            <h2>Лични данни</h2>
+          </div>
+          <div class="pricing-info nospacer">
+            <p>Потребителско име:</p>
+            <input type="text" id="username" style="color:crimson; background-color: #fff !important; border: 1px solid #EC1418 !important;" name="name">
+            <p>Имейл</p>
+            <input type="email" id="email" style="color:crimson; background-color: #fff !important; border: 1px solid #EC1418 !important;" name="email">
+            <p>Парола</p>
+            <input type="password" id="password" style="color:crimson; background-color: #fff !important; border: 1px solid #EC1418 !important;" name="password">
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6">
+        <div class="pricing-thumb">
+          <div class="pricing-title">
+            <h2>Моят план</h2>
+          </div>
+          <div class="pricing-info">
+            <p>x50 опита на случаен принцип </p>
+            <p>x30 опита до 45 символа</p>
+            <p>x20 опита до 20 символа</p>
+            <p>x10 опита до 15 символа</p>
+            <p>x5 опита до 5 символа</p>
+          </div>
+          <div class="pricing-bottom"> <span class="pricing-dollar">15лв./месец</span> <a href="#" class="section-btn pricing-btn">Поднови</a> </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6">
+        <div class="pricing-thumb">
+          <div class="pricing-title">
+            <h2>План Про +</h2>
+          </div>
+          <div class="pricing-info">
+            <p>x500 опита на случаен принцип </p>
+            <p>x350 опита до 45 символа</p>
+            <p>x200 опита до 20 символа</p>
+            <p>x120 опита до 15 символа</p>
+            <p>x90 опита до 5 символа</p>
+          </div>
+          <div class="pricing-bottom"> <span class="pricing-dollar">40лв/месец</span> <a href="#" class="section-btn pricing-btn">Надгради</a> </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+    
+<section id="contact" style="padding-top:30px" data-stellar-background-ratio="0.5">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-offset-1 col-md-10 col-sm-12">
+        <form id="contact-form" role="form" action="" method="post">
+          <div class="section-title" style="padding-bottom:10px">
+            <h1>Моите генерирани линкове</h1>
+          </div>
+          <div class="col-md-4 col-sm-4" style="width:100%">
+            <div class="input-button-container-wrapper">
+              <div class="input-button-container">
+                <input type="text" id="genlo" class="form-control" placeholder="Генериран линк 1" name="genl1">
+                <button id="genlon" class="action-btn edit-btn"><i class="fa fa-edit btn-icon"></i></button>
+              </div>
+              <div class="input-button-container">
+                <input type="text" id="genlt" class="form-control" placeholder="Генериран линк 2" name="genl2">
+                <button id="genltu" class="action-btn edit-btn"><i class="fa fa-edit btn-icon"></i></button>
+              </div>
+              <div class="input-button-container">
+                <input type="text" id="genltr" class="form-control" placeholder="Генериран линк 3" name="genl3">
+                <button id="genltree" class="action-btn edit-btn"><i class="fa fa-edit btn-icon"></i></button>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+    
+
+<!-- SCRIPTS --> 
+<script src="js/jquery.js"></script> 
+<script src="js/bootstrap.min.js"></script> 
+<script src="js/jquery.stellar.min.js"></script> 
+<script src="js/owl.carousel.min.js"></script> 
+<script src="js/smoothscroll.js"></script> 
+<script src="js/custom.js"></script>
+<script src="js/custom2.js"></script>
+</body>
+</html>
